@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="{% static 'css/libs.min.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'css/styles.min.css' %}" type="text/css" />
+    <title>Django-Gulp-Boilerplate</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <main class="main">
+            <div class="main__images">
+                <img class="main__image-item main__image-item--django" src="{% static 'img/django.webp' %}" alt="">
+                <span>+</span>
+                <img class="main__image-item main__image-item--gulp" src="{% static 'img/gulp.webp' %}" alt="">
+            </div>
+            <div class="main__text">
+                <h1>Congratulations!</h1>
+                <h2>Your <span class="main__span main__span--django">DJANGO</span>-<span
+                        class="main__span main__span--gulp">GULP</span>-<span
+                        class="main__span main__span--boilerplate">BOILERPLATE</span> is ready to go =)</h2>
+            </div>
+        </main>
+    </div>
+
+    <script src="{% static 'js/libs.min.js' %}"></script>
+    <script src="{% static 'js/scripts.min.js' %}"></script>
+</body>
+
+</html>

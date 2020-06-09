@@ -1,0 +1,16 @@
+{
+    "name": "django_gulp_boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "scripts": {
+        "build": "gulp build",
+        "start": "npm run build && gulp watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {},
+    "browserslist": [
+        "last 2 version"
+    ]
+}

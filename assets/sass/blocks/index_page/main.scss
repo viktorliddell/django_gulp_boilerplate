@@ -1,0 +1,48 @@
+.main {
+
+    &__images {
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            padding-top: 40px;
+            font-size: px-to-rem(72px);
+            color: $mainBlue;
+        }
+    }
+
+    &__image-item {
+        width: 125px;
+        margin: 0 50px;
+
+        &--django {
+            padding-top: 50px;
+        }
+
+        &--gulp {
+            width: 90px;
+        }
+    }
+
+    &__text {
+        margin-top: 75px;
+        color: $mainText;
+        text-align: center;
+    }
+
+    &__span {
+        &--django {
+            color: $mainGreen;
+        }
+
+        &--gulp {
+            color :$mainRed;
+        }
+
+        &--boilerplate {
+            color: $mainBlue;
+        }
+    }
+}
