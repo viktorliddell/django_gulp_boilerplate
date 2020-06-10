@@ -18,7 +18,7 @@ function reloadBrowser(done) {
 }
 
 function clean() {
-    return del(['static/css', 'static/js', 'static/img'])
+    return del(['static/css', 'static/js', 'static/img', 'static/fonts'])
 }
 
 function sass() {
